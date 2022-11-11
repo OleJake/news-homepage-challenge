@@ -1,0 +1,41 @@
+body {
+    padding: 80px 100px 80px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-logo {
+    width: 960px;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 50px 0;
+}
+
+a {
+    padding-left: 30px;
+}
+
+.main-logo-left {
+    width: 70%
+}
+
+.news-container {
+    display: flex;
+    max-height: 20rem;
+    max-width: 100rem;
+}
+
+.news-column {
+    background: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+    margin-left: 20px;
+    padding: 20px;
+    height: 27rem;
+}
+
+.new-text {
+    color: hsl(35, 77%, 62%);
+}
